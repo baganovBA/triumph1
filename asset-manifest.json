@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/triumph1/static/css/main.648a634c.chunk.css",
+    "main.js": "/triumph1/static/js/main.e93f57f2.chunk.js",
+    "main.js.map": "/triumph1/static/js/main.e93f57f2.chunk.js.map",
+    "runtime-main.js": "/triumph1/static/js/runtime-main.43a7cdec.js",
+    "runtime-main.js.map": "/triumph1/static/js/runtime-main.43a7cdec.js.map",
+    "static/js/2.7b8586a3.chunk.js": "/triumph1/static/js/2.7b8586a3.chunk.js",
+    "static/js/2.7b8586a3.chunk.js.map": "/triumph1/static/js/2.7b8586a3.chunk.js.map",
+    "static/js/3.0300205d.chunk.js": "/triumph1/static/js/3.0300205d.chunk.js",
+    "static/js/3.0300205d.chunk.js.map": "/triumph1/static/js/3.0300205d.chunk.js.map",
+    "index.html": "/triumph1/index.html",
+    "static/css/main.648a634c.chunk.css.map": "/triumph1/static/css/main.648a634c.chunk.css.map",
+    "static/js/2.7b8586a3.chunk.js.LICENSE.txt": "/triumph1/static/js/2.7b8586a3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.43a7cdec.js",
+    "static/js/2.7b8586a3.chunk.js",
+    "static/css/main.648a634c.chunk.css",
+    "static/js/main.e93f57f2.chunk.js"
+  ]
+}
