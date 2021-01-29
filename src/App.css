@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.title{
+  margin-top: 0;
+}
+
+.App {
+  font-family: 'Montserrat', sans-serif;
+  min-height: 100vh;
+  min-width: 600px;
+  text-align: center;
+  background: rgba(234, 225, 149, 0.38)
+}
+
+.add_form{
+  padding:10px;
+border: solid 1px gray;
+display:flex;
+flex-direction: row;
+justify-content: space-between;
+flex-wrap: wrap;
+width: 60%;
+max-width: 600px;
+margin-bottom: 25px;
+margin-left: 10vw;
+}
+
+.add_form_item{
+  /* margin-left: 15px; */
+  border: solid 1px gray;
+  width: 181px;
+  height: 40px;
+  padding: 2px;
+  position:relative;
+  min-width: auto;
+  min-height: auto;
+}
+
+.add_form_select{
+/* margin-left:10px; */
+position: absolute;
+right:10px;
+top:2px;
+
+}
+
+.add_form_picker{
+  width: 100%;
+}
+.add_form_button{
+  margin:0 auto;
+}
+.table{
+  border:solid 1px gray;
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+  box-sizing: border-box;
+  min-width: 600px;
+}
+
+.table_item{
+  /* box-sizing: border-box; */
+  border: solid 1px darkblue;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px;
+  /* width: 100%; */
+  min-width: 80%;
+  box-sizing: inherit;
+}
+.table_item:hover{
+  cursor: grab;
+}
+
+.table_item_input{
+  /* height: 20px;
+  border-radius: 5px; */
+  text-align: center;
+  
+}
+
+/* .table_item_button_delete{
+  height: 20px;
+  border-radius: 5px;
+} */
+
+
+@media (max-width: 768px) { 
+
+  .add_form{
+    display:flex;
+    flex-direction: column;
+    margin: 25px auto;
+    justify-content: center;
+  }
+  .add_form_item{
+    margin: 10px auto;
+  }
+  .table_item_input{
+    width: 25%;
+  }
+
+ }
